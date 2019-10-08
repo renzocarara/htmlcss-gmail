@@ -1,0 +1,107 @@
+* {
+    /* considero border e padding inclusi nella width e height degli elementi */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    background-image: url("images/gmail_background.jpg");
+    /* non ripeto l'immagine */
+    background-repeat: no-repeat;
+    /* l'immagine di sfondo rimane ferma quando scrollo */
+    background-attachment: fixed;
+    /* centro l'immagine in larghezza e altezza */
+    background-position: center center;
+    /* copro tutto lo spazio disponibile */
+    background-size: cover;
+    /* uso font disponibile da Google Fonts */
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+    width: 70%;
+}
+
+.h1Title {
+    color: red;
+    text-align: center;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    /* setto i margini top e bottom 10px, left e right 0 */
+    margin: 20px 0 5px 0;
+}
+
+.header__searchBox {
+    width: 300px;
+}
+
+.header__logo {
+    margin-right: 40px;
+    /* allineo verticalmente il logo e la search box */
+    vertical-align: middle;
+}
+
+.header__badge {
+    background-color: orange;
+    border: 8px solid orange;
+    border-radius: 90px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main {
+    background-color: #e9dee1;
+}
+
+.main__panel {
+    background-color: rgba(255, 255, 255, 0.76);
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.main__commandMenu p {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.main__messageList {
+    height: 300px;
+}
+
+.messageSelect {
+    margin-bottom: 10px;
+}
+
+.msgHeader {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+}
+
+.msgHeader-checked {
+    font-weight: bold;
+    background-color: rgba(200, 240, 255, 0.85);
+}
+
+.divider {
+    border: 2px solid gray;
+}
+
+.footer__panel {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 5px solid gray;
+    border-radius: 10px;
+    font-size: 60%;
+    height: 100px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
